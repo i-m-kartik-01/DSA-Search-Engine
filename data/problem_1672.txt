@@ -1,0 +1,177 @@
+CSES - Shortest Routes II
+Time limit:
+1.00 s
+Memory limit:
+512 MB
+There are
+n
+n
+n
+cities and
+m
+m
+m
+roads between them. Your task is to process
+q
+q
+q
+queries where you have to determine the length of the shortest route between two given cities.
+Input
+The first input line has three integers
+n
+n
+n
+,
+m
+m
+m
+and
+q
+q
+q
+: the number of cities, roads, and queries.
+Then, there are
+m
+m
+m
+lines describing the roads. Each line has three integers
+a
+a
+a
+,
+b
+b
+b
+and
+c
+c
+c
+: there is a road between cities
+a
+a
+a
+and
+b
+b
+b
+whose length is
+c
+c
+c
+. All roads are two-way roads.
+Finally, there are
+q
+q
+q
+lines describing the queries. Each line has two integers
+a
+a
+a
+and
+b
+b
+b
+: determine the length of the shortest route between cities
+a
+a
+a
+and
+b
+b
+b
+.
+Output
+Print the length of the shortest route for each query. If there is no route, print
+−
+1
+-1
+−
+1
+instead.
+Constraints
+1
+≤
+n
+≤
+500
+1 \le n \le 500
+1
+≤
+n
+≤
+500
+1
+≤
+m
+≤
+n
+2
+1 \le m \le n^2
+1
+≤
+m
+≤
+n
+2
+1
+≤
+q
+≤
+1
+0
+5
+1 \le q \le 10^5
+1
+≤
+q
+≤
+1
+0
+5
+1
+≤
+a
+,
+b
+≤
+n
+1 \le a,b \le n
+1
+≤
+a
+,
+b
+≤
+n
+1
+≤
+c
+≤
+1
+0
+9
+1 \le c \le 10^9
+1
+≤
+c
+≤
+1
+0
+9
+Example
+Input:
+4 3 5
+1 2 5
+1 3 9
+2 3 3
+1 2
+2 1
+1 3
+1 4
+3 2
+Output:
+5
+5
+8
+-1
+3

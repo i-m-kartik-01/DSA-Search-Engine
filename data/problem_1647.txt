@@ -1,0 +1,163 @@
+CSES - Static Range Minimum Queries
+Time limit:
+1.00 s
+Memory limit:
+512 MB
+Given an array of
+n
+n
+n
+integers, your task is to process
+q
+q
+q
+queries of the form: what is the minimum value in range
+[
+a
+,
+b
+]
+[a,b]
+[
+a
+,
+b
+]
+?
+Input
+The first input line has two integers
+n
+n
+n
+and
+q
+q
+q
+: the number of values and queries.
+The second line has
+n
+n
+n
+integers
+x
+1
+,
+x
+2
+,
+…
+,
+x
+n
+x_1,x_2,\dots,x_n
+x
+1
+​
+,
+x
+2
+​
+,
+…
+,
+x
+n
+​
+: the array values.
+Finally, there are
+q
+q
+q
+lines describing the queries. Each line has two integers
+a
+a
+a
+and
+b
+b
+b
+: what is the minimum value in range
+[
+a
+,
+b
+]
+[a,b]
+[
+a
+,
+b
+]
+?
+Output
+Print the result of each query.
+Constraints
+1
+≤
+n
+,
+q
+≤
+2
+⋅
+1
+0
+5
+1 \le n,q \le 2 \cdot 10^5
+1
+≤
+n
+,
+q
+≤
+2
+⋅
+1
+0
+5
+1
+≤
+x
+i
+≤
+1
+0
+9
+1 \le x_i \le 10^9
+1
+≤
+x
+i
+​
+≤
+1
+0
+9
+1
+≤
+a
+≤
+b
+≤
+n
+1 \le a \le b \le n
+1
+≤
+a
+≤
+b
+≤
+n
+Example
+Input:
+8 4
+3 2 4 5 1 1 5 3
+2 4
+5 6
+1 8
+3 3
+Output:
+2
+1
+1
+4

@@ -1,0 +1,154 @@
+CSES - Binomial Coefficients
+Time limit:
+1.00 s
+Memory limit:
+512 MB
+Your task is to calculate
+n
+n
+n
+binomial coefficients modulo
+1
+0
+9
++
+7
+10^9+7
+1
+0
+9
++
+7
+.
+A binomial coefficient
+(
+a
+b
+)
+{a \choose b}
+(
+b
+a
+​
+)
+can be calculated using the formula
+a
+!
+b
+!
+(
+a
+−
+b
+)
+!
+\frac{a!}{b!(a-b)!}
+b
+!
+(
+a
+−
+b
+)!
+a
+!
+​
+. We assume that
+a
+a
+a
+and
+b
+b
+b
+are integers and
+0
+≤
+b
+≤
+a
+0 \le b \le a
+0
+≤
+b
+≤
+a
+.
+Input
+The first input line contains an integer
+n
+n
+n
+: the number of calculations.
+After this, there are
+n
+n
+n
+lines, each of which contains two integers
+a
+a
+a
+and
+b
+b
+b
+.
+Output
+Print each binomial coefficient modulo
+1
+0
+9
++
+7
+10^9+7
+1
+0
+9
++
+7
+.
+Constraints
+1
+≤
+n
+≤
+1
+0
+5
+1 \le n \le 10^5
+1
+≤
+n
+≤
+1
+0
+5
+0
+≤
+b
+≤
+a
+≤
+1
+0
+6
+0 \le b \le a \le 10^6
+0
+≤
+b
+≤
+a
+≤
+1
+0
+6
+Example
+Input:
+3
+5 3
+8 1
+9 5
+Output:
+10
+8
+126

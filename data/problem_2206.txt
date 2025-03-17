@@ -1,0 +1,212 @@
+CSES - Pizzeria Queries
+Time limit:
+1.00 s
+Memory limit:
+512 MB
+There are
+n
+n
+n
+buildings on a street, numbered
+1
+,
+2
+,
+…
+,
+n
+1,2,\dots,n
+1
+,
+2
+,
+…
+,
+n
+. Each building has a pizzeria and an apartment.
+The pizza price in building
+k
+k
+k
+is
+p
+k
+p_k
+p
+k
+​
+. If you order a pizza from building
+a
+a
+a
+to building
+b
+b
+b
+, its price (with delivery) is
+p
+a
++
+∣
+a
+−
+b
+∣
+p_a+|a-b|
+p
+a
+​
++
+∣
+a
+−
+b
+∣
+.
+Your task is to process two types of queries:
+The pizza price
+p
+k
+p_k
+p
+k
+​
+in building
+k
+k
+k
+becomes
+x
+x
+x
+.
+You are in building
+k
+k
+k
+and want to order a pizza. What is the minimum price?
+Input
+The first input line has two integers
+n
+n
+n
+and
+q
+q
+q
+: the number of buildings and queries.
+The second line has
+n
+n
+n
+integers
+p
+1
+,
+p
+2
+,
+…
+,
+p
+n
+p_1,p_2,\dots,p_n
+p
+1
+​
+,
+p
+2
+​
+,
+…
+,
+p
+n
+​
+: the initial pizza price in each building.
+Finally, there are
+q
+q
+q
+lines that describe the queries. Each line is either "1
+k
+k
+k
+x
+x
+x
+" or "2
+k
+k
+k
+".
+Output
+Print the answer for each query of type 2.
+Constraints
+1
+≤
+n
+,
+q
+≤
+2
+⋅
+1
+0
+5
+1 \le n,q \le 2 \cdot 10^5
+1
+≤
+n
+,
+q
+≤
+2
+⋅
+1
+0
+5
+1
+≤
+p
+i
+,
+x
+≤
+1
+0
+9
+1 \le p_i, x \le 10^9
+1
+≤
+p
+i
+​
+,
+x
+≤
+1
+0
+9
+1
+≤
+k
+≤
+n
+1 \le k \le n
+1
+≤
+k
+≤
+n
+Example
+Input:
+6 3
+8 6 4 5 7 5
+2 2
+1 5 1
+2 2
+Output:
+5
+4

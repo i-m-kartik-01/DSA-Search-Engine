@@ -1,0 +1,129 @@
+CSES - Chess Tournament
+Time limit:
+1.00 s
+Memory limit:
+512 MB
+There will be a chess tournament of
+n
+n
+n
+players. Each player has announced the number of games they want to play.
+Each pair of players can play at most one game. Your task is to determine which games will be played so that everybody will be happy.
+Input
+The first input line has an integer
+n
+n
+n
+: the number of players. The players are numbered
+1
+,
+2
+,
+…
+,
+n
+1,2,\dots,n
+1
+,
+2
+,
+…
+,
+n
+.
+The next line has
+n
+n
+n
+integers
+x
+1
+,
+x
+2
+,
+…
+,
+x
+n
+x_1,x_2,\dots,x_n
+x
+1
+​
+,
+x
+2
+​
+,
+…
+,
+x
+n
+​
+: for each player, the number of games they want to play.
+Output
+First print an integer
+k
+k
+k
+: the number of games. Then, print
+k
+k
+k
+lines describing the games. You can print any valid solution.
+If there are no solutions, print "IMPOSSIBLE".
+Constraints
+1
+≤
+n
+≤
+1
+0
+5
+1 \le n \le 10^5
+1
+≤
+n
+≤
+1
+0
+5
+∑
+i
+=
+1
+n
+x
+i
+≤
+2
+⋅
+1
+0
+5
+\sum_{i=1}^{n} x_i \le 2 \cdot 10^5
+∑
+i
+=
+1
+n
+​
+x
+i
+​
+≤
+2
+⋅
+1
+0
+5
+Example
+Input:
+5
+1 3 2 0 2
+Output:
+4
+1 2
+2 3
+2 5
+3 5

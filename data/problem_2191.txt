@@ -1,0 +1,267 @@
+CSES - Polygon Area
+Time limit:
+1.00 s
+Memory limit:
+512 MB
+Your task is to calculate the area of a given polygon.
+The polygon consists of
+n
+n
+n
+vertices
+(
+x
+1
+,
+y
+1
+)
+,
+(
+x
+2
+,
+y
+2
+)
+,
+…
+,
+(
+x
+n
+,
+y
+n
+)
+(x_1,y_1),(x_2,y_2),\dots,(x_n,y_n)
+(
+x
+1
+​
+,
+y
+1
+​
+)
+,
+(
+x
+2
+​
+,
+y
+2
+​
+)
+,
+…
+,
+(
+x
+n
+​
+,
+y
+n
+​
+)
+. The vertices
+(
+x
+i
+,
+y
+i
+)
+(x_i,y_i)
+(
+x
+i
+​
+,
+y
+i
+​
+)
+and
+(
+x
+i
++
+1
+,
+y
+i
++
+1
+)
+(x_{i+1},y_{i+1})
+(
+x
+i
++
+1
+​
+,
+y
+i
++
+1
+​
+)
+are adjacent for
+i
+=
+1
+,
+2
+,
+…
+,
+n
+−
+1
+i=1,2,\dots,n-1
+i
+=
+1
+,
+2
+,
+…
+,
+n
+−
+1
+, and the vertices
+(
+x
+1
+,
+y
+1
+)
+(x_1,y_1)
+(
+x
+1
+​
+,
+y
+1
+​
+)
+and
+(
+x
+n
+,
+y
+n
+)
+(x_n,y_n)
+(
+x
+n
+​
+,
+y
+n
+​
+)
+are also adjacent.
+Input
+The first input line has an integer
+n
+n
+n
+: the number of vertices.
+After this, there are
+n
+n
+n
+lines that describe the vertices. The
+i
+i
+i
+th such line has two integers
+x
+i
+x_i
+x
+i
+​
+and
+y
+i
+y_i
+y
+i
+​
+.
+You may assume that the polygon is simple, i.e., it does not intersect itself.
+Output
+Print one integer:
+2
+a
+2a
+2
+a
+where the area of the polygon is
+a
+a
+a
+(this ensures that the result is an integer).
+Constraints
+3
+≤
+n
+≤
+1000
+3 \le n \le 1000
+3
+≤
+n
+≤
+1000
+−
+1
+0
+9
+≤
+x
+i
+,
+y
+i
+≤
+1
+0
+9
+-10^9 \le x_i, y_i \le 10^9
+−
+1
+0
+9
+≤
+x
+i
+​
+,
+y
+i
+​
+≤
+1
+0
+9
+Example
+Input:
+4
+1 1
+4 2
+3 5
+1 4
+Output:
+16

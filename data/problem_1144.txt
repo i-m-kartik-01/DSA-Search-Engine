@@ -1,0 +1,202 @@
+CSES - Salary Queries
+Time limit:
+1.00 s
+Memory limit:
+512 MB
+A company has
+n
+n
+n
+employees with certain salaries. Your task is to keep track of the salaries and process queries.
+Input
+The first input line contains two integers
+n
+n
+n
+and
+q
+q
+q
+: the number of employees and queries. The employees are numbered
+1
+,
+2
+,
+…
+,
+n
+1,2,\ldots,n
+1
+,
+2
+,
+…
+,
+n
+.
+The next line has
+n
+n
+n
+integers
+p
+1
+,
+p
+2
+,
+…
+,
+p
+n
+p_1,p_2,\ldots,p_n
+p
+1
+​
+,
+p
+2
+​
+,
+…
+,
+p
+n
+​
+: each employee's salary.
+After this, there are
+q
+q
+q
+lines describing the queries. Each line has one of the following forms:
+!
+k
+k
+k
+x
+x
+x
+: change the salary of employee
+k
+k
+k
+to
+x
+x
+x
+?
+a
+a
+a
+b
+b
+b
+: count the number of employees whose salary is between
+a
+…
+b
+a \ldots b
+a
+…
+b
+Output
+Print the answer to each
+?
+query.
+Constraints
+1
+≤
+n
+,
+q
+≤
+2
+⋅
+1
+0
+5
+1 \le n, q \le 2 \cdot 10^5
+1
+≤
+n
+,
+q
+≤
+2
+⋅
+1
+0
+5
+1
+≤
+p
+i
+≤
+1
+0
+9
+1 \le p_i \le 10^9
+1
+≤
+p
+i
+​
+≤
+1
+0
+9
+1
+≤
+k
+≤
+n
+1 \le k \le n
+1
+≤
+k
+≤
+n
+1
+≤
+x
+≤
+1
+0
+9
+1 \le x \le 10^9
+1
+≤
+x
+≤
+1
+0
+9
+1
+≤
+a
+≤
+b
+≤
+1
+0
+9
+1 \le a \le b \le 10^9
+1
+≤
+a
+≤
+b
+≤
+1
+0
+9
+Example
+Input:
+5 3
+3 7 2 2 5
+? 2 3
+! 3 6
+? 2 3
+Output:
+3
+2

@@ -1,0 +1,82 @@
+CSES - Counting Tilings
+Time limit:
+1.00 s
+Memory limit:
+512 MB
+Your task is to count the number of ways you can fill an
+n
+×
+m
+n \times m
+n
+×
+m
+grid using
+1
+×
+2
+1 \times 2
+1
+×
+2
+and
+2
+×
+1
+2 \times 1
+2
+×
+1
+tiles.
+Input
+The only input line has two integers
+n
+n
+n
+and
+m
+m
+m
+.
+Output
+Print one integer: the number of ways modulo
+1
+0
+9
++
+7
+10^9+7
+1
+0
+9
++
+7
+.
+Constraints
+1
+≤
+n
+≤
+10
+1 \le n \le 10
+1
+≤
+n
+≤
+10
+1
+≤
+m
+≤
+1000
+1 \le m \le 1000
+1
+≤
+m
+≤
+1000
+Example
+Input:
+4 7
+Output:
+781

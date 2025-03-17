@@ -1,0 +1,123 @@
+CSES - Exponentiation
+Time limit:
+1.00 s
+Memory limit:
+512 MB
+Your task is to efficiently calculate values
+a
+b
+a^b
+a
+b
+modulo
+1
+0
+9
++
+7
+10^9+7
+1
+0
+9
++
+7
+.
+Note that in this task we assume that
+0
+0
+=
+1
+0^0=1
+0
+0
+=
+1
+.
+Input
+The first input line contains an integer
+n
+n
+n
+: the number of calculations.
+After this, there are
+n
+n
+n
+lines, each containing two integers
+a
+a
+a
+and
+b
+b
+b
+.
+Output
+Print each value
+a
+b
+a^b
+a
+b
+modulo
+1
+0
+9
++
+7
+10^9+7
+1
+0
+9
++
+7
+.
+Constraints
+1
+≤
+n
+≤
+2
+⋅
+1
+0
+5
+1 \le n \le 2 \cdot 10^5
+1
+≤
+n
+≤
+2
+⋅
+1
+0
+5
+0
+≤
+a
+,
+b
+≤
+1
+0
+9
+0 \le a,b \le 10^9
+0
+≤
+a
+,
+b
+≤
+1
+0
+9
+Example
+Input:
+3
+3 4
+2 8
+123 123
+Output:
+81
+256
+921450052

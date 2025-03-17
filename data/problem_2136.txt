@@ -1,0 +1,90 @@
+CSES - Hamming Distance
+Time limit:
+1.00 s
+Memory limit:
+512 MB
+The Hamming distance between two strings
+a
+a
+a
+and
+b
+b
+b
+of equal length is the number of positions where the strings differ.
+You are given
+n
+n
+n
+bit strings, each of length
+k
+k
+k
+and your task is to calculate the minimum Hamming distance between two strings.
+Input
+The first input line has two integers
+n
+n
+n
+and
+k
+k
+k
+: the number of bit strings and their length.
+Then there are
+n
+n
+n
+lines each consisting of one bit string of length
+k
+k
+k
+.
+Output
+Print the minimum Hamming distance between two strings.
+Constraints
+2
+≤
+n
+≤
+2
+⋅
+1
+0
+4
+2 \le n \le 2 \cdot 10^4
+2
+≤
+n
+≤
+2
+⋅
+1
+0
+4
+1
+≤
+k
+≤
+30
+1 \le k \le 30
+1
+≤
+k
+≤
+30
+Example
+Input:
+5 6
+110111
+001000
+100001
+101000
+101110
+Output:
+1
+Explanation: The strings
+101000
+and
+001000
+differ only at the first position.

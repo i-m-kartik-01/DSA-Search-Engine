@@ -1,0 +1,169 @@
+CSES - Minimum Euclidean Distance
+Time limit:
+1.00 s
+Memory limit:
+512 MB
+Given a set of points in the two-dimensional plane, your task is to find the minimum Euclidean distance between two distinct points.
+The Euclidean distance of points
+(
+x
+1
+,
+y
+1
+)
+(x_1,y_1)
+(
+x
+1
+​
+,
+y
+1
+​
+)
+and
+(
+x
+2
+,
+y
+2
+)
+(x_2,y_2)
+(
+x
+2
+​
+,
+y
+2
+​
+)
+is
+(
+x
+1
+−
+x
+2
+)
+2
++
+(
+y
+1
+−
+y
+2
+)
+2
+\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}
+(
+x
+1
+​
+−
+x
+2
+​
+)
+2
++
+(
+y
+1
+​
+−
+y
+2
+​
+)
+2
+​
+.
+Input
+The first input line has an integer
+n
+n
+n
+: the number of points.
+After this, there are
+n
+n
+n
+lines that describe the points. Each line has two integers
+x
+x
+x
+and
+y
+y
+y
+. You may assume that each point is distinct.
+Output
+Print one integer:
+d
+2
+d^2
+d
+2
+where
+d
+d
+d
+is the minimum Euclidean distance (this ensures that the result is an integer).
+Constraints
+2
+≤
+n
+≤
+2
+⋅
+1
+0
+5
+2 \le n \le 2 \cdot 10^5
+2
+≤
+n
+≤
+2
+⋅
+1
+0
+5
+−
+1
+0
+9
+≤
+x
+,
+y
+≤
+1
+0
+9
+-10^9 \le x,y \le 10^9
+−
+1
+0
+9
+≤
+x
+,
+y
+≤
+1
+0
+9
+Example
+Input:
+4
+2 1
+4 4
+1 2
+6 3
+Output:
+2

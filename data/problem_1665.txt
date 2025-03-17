@@ -1,0 +1,121 @@
+CSES - Coding Company
+Time limit:
+1.00 s
+Memory limit:
+512 MB
+Your company has
+n
+n
+n
+coders, and each of them has a skill level between
+0
+0
+0
+and
+100
+100
+100
+. Your task is to divide the coders into teams that work together.
+Based on your experience, you know that teams work well when the skill levels of the coders are about the same. For this reason, the penalty for creating a team is the skill level difference between the best and the worst coder.
+In how many ways can you divide the coders into teams such that the sum of the penalties is at most
+x
+x
+x
+?
+Input
+The first input line has two integers
+n
+n
+n
+and
+x
+x
+x
+: the number of coders and the maximum allowed penalty sum.
+The next line has
+n
+n
+n
+integers
+t
+1
+,
+t
+2
+,
+…
+,
+t
+n
+t_1,t_2,\dots,t_n
+t
+1
+​
+,
+t
+2
+​
+,
+…
+,
+t
+n
+​
+: the skill level of each coder.
+Output
+Print one integer: the number of valid divisions modulo
+1
+0
+9
++
+7
+10^9+7
+1
+0
+9
++
+7
+.
+Constraints
+1
+≤
+n
+≤
+100
+1 \le n \le 100
+1
+≤
+n
+≤
+100
+0
+≤
+x
+≤
+5000
+0 \le x \le 5000
+0
+≤
+x
+≤
+5000
+0
+≤
+t
+i
+≤
+100
+0 \le t_i \le 100
+0
+≤
+t
+i
+​
+≤
+100
+Example
+Input:
+3 2
+2 5 3
+Output:
+3

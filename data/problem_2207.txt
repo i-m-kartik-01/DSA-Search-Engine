@@ -1,0 +1,69 @@
+CSES - Grundy's Game
+Time limit:
+1.00 s
+Memory limit:
+512 MB
+There is a heap of
+n
+n
+n
+coins and two players who move alternately. On each move, a player chooses a heap and divides into two nonempty heaps that have a different number of coins. The player who makes the last move wins the game.
+Your task is to find out who wins if both players play optimally.
+Input
+The first input line contains an integer
+t
+t
+t
+: the number of tests.
+After this, there are
+t
+t
+t
+lines that describe the tests. Each line has an integer
+n
+n
+n
+: the number of coins in the initial heap.
+Output
+For each test case, print "first" if the first player wins the game and "second" if the second player wins the game.
+Constraints
+1
+≤
+t
+≤
+1
+0
+5
+1 \le t \le 10^5
+1
+≤
+t
+≤
+1
+0
+5
+1
+≤
+n
+≤
+1
+0
+6
+1 \le n \le 10^6
+1
+≤
+n
+≤
+1
+0
+6
+Example
+Input:
+3
+6
+7
+8
+Output:
+first
+second
+first

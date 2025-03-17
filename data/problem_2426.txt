@@ -1,0 +1,152 @@
+CSES - Programmers and Artists
+Time limit:
+1.00 s
+Memory limit:
+512 MB
+A company wants to hire
+a
+a
+a
+programmers and
+b
+b
+b
+artists.
+There are a total of
+n
+n
+n
+applicants, and each applicant can become either a programmer or an artist. You know each applicant's programming and artistic skills.
+Your task is to select the new employees so that the sum of their skills is maximum.
+Input
+The first input line has three integers
+a
+a
+a
+,
+b
+b
+b
+and
+n
+n
+n
+: the required number of programmers and artists, and the total number of applicants.
+After this, there are
+n
+n
+n
+lines that describe the applicants. Each line has two integers
+x
+x
+x
+and
+y
+y
+y
+: the applicant's programming and artistic skills.
+Output
+Print one integer: the maximum sum of skills.
+Constraints
+1
+≤
+n
+≤
+2
+⋅
+1
+0
+5
+1 \le n \le 2 \cdot 10^5
+1
+≤
+n
+≤
+2
+⋅
+1
+0
+5
+0
+≤
+a
+,
+b
+≤
+n
+0 \le a,b \le n
+0
+≤
+a
+,
+b
+≤
+n
+a
++
+b
+≤
+n
+a+b \le n
+a
++
+b
+≤
+n
+1
+≤
+x
+,
+y
+≤
+1
+0
+9
+1 \le x,y \le 10^9
+1
+≤
+x
+,
+y
+≤
+1
+0
+9
+Example
+Input:
+2 1 4
+3 7
+9 8
+1 5
+4 2
+Output:
+20
+Explanation: An optimal solution is to hire two programmers with skills
+9
+9
+9
+and
+4
+4
+4
+and one artist with skill
+7
+7
+7
+. The sum of the skills is
+9
++
+4
++
+7
+=
+20
+9+4+7=20
+9
++
+4
++
+7
+=
+20
+.

@@ -1,0 +1,160 @@
+CSES - Stick Divisions
+Time limit:
+1.00 s
+Memory limit:
+512 MB
+You have a stick of length
+x
+x
+x
+and you want to divide it into
+n
+n
+n
+sticks, with given lengths, whose total length is
+x
+x
+x
+.
+On each move you can take any stick and divide it into two sticks. The cost of such an operation is the length of the original stick.
+What is the minimum cost needed to create the sticks?
+Input
+The first input line has two integers
+x
+x
+x
+and
+n
+n
+n
+: the length of the stick and the number of sticks in the division.
+The second line has
+n
+n
+n
+integers
+d
+1
+,
+d
+2
+,
+…
+,
+d
+n
+d_1,d_2,\ldots,d_n
+d
+1
+​
+,
+d
+2
+​
+,
+…
+,
+d
+n
+​
+: the length of each stick in the division.
+Output
+Print one integer: the minimum cost of the division.
+Constraints
+1
+≤
+x
+≤
+1
+0
+9
+1 \le x \le 10^9
+1
+≤
+x
+≤
+1
+0
+9
+1
+≤
+n
+≤
+2
+⋅
+1
+0
+5
+1 \le n \le 2 \cdot 10^5
+1
+≤
+n
+≤
+2
+⋅
+1
+0
+5
+∑
+d
+i
+=
+x
+\sum d_i = x
+∑
+d
+i
+​
+=
+x
+Example
+Input:
+8 3
+2 3 3
+Output:
+13
+Explanation: You first divide the stick of length
+8
+8
+8
+into sticks of length
+3
+3
+3
+and
+5
+5
+5
+(cost
+8
+8
+8
+). After this, you divide the stick of length
+5
+5
+5
+into sticks of length
+2
+2
+2
+and
+3
+3
+3
+(cost
+5
+5
+5
+). The total cost is
+8
++
+5
+=
+13
+8+5=13
+8
++
+5
+=
+13
+.
