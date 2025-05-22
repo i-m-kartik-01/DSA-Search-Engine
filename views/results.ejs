@@ -57,7 +57,7 @@
                         <span class="score-badge">TFIDF-Score: <%= result.similarity.toFixed(3) %></span>
                     </h5>
                     <pre class="mb-0" style="white-space: pre-wrap; background: none; border: none; color: #fff;">
-<%- highlightTerms(result.content, query) %>
+<%= result.content %>
                     </pre>
                 </div>
             <% }); %>
