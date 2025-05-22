@@ -13,9 +13,11 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.urlencoded({ extended: true }));
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/searchapp', {
-  // options are optional in latest mongoose
+mongoose.connect(process.env.MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
 });
+
 
 let tfidf; // Will be initialized after DB fetch
 
