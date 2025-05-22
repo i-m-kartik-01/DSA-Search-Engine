@@ -1,6 +1,6 @@
 class TFIDF {
     constructor(documents) {
-        this.documents = documents;
+        this.documents = documents; // Array of { content, tokens }
         this.terms = [];
         this.df = {}; // Document frequency storage
         this.tfidfVectors = [];
@@ -44,11 +44,12 @@ class TFIDF {
     search(query, topN = 5) {
         const queryTerms = query.toLowerCase()
             .replace(/[^\w\s]/g, '')
-            .split(/\s+/);
+            .split(/\s+/)
+            .filter(Boolean);
 
         // Create query vector using proper DF values
         const queryVector = this.terms.map(term => {
-            const tf = queryTerms.filter(t => t === term).length / queryTerms.length;
+            const tf = queryTerms.filter(t => t === term).length / (queryTerms.length || 1);
             const idf = Math.log(this.documents.length / (this.df[term] || 1));
             return tf * idf;
         });
