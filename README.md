@@ -1,2 +1,2 @@
 # DSA-based-Search-Engine
-# DSA-Based-Search-Engine-MongoDB
+# DSA-Based-Search-Engine-Mongo
